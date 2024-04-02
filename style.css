@@ -154,3 +154,114 @@ input{
     background-color: rgb(204, 204, 216);
     transition: ease-in-out 0.3s;
 }
+
+/* button modal */
+.modal{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.fa-closed-captioning{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wrapper{
+    margin: 150px auto;
+    padding: 20px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    width: 35%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    overflow: hidden;
+}
+
+.wrapper .close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.wrapper h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.one-row{
+    margin-top: 30px;
+
+}
+
+.one-row label{
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+
+.one-row .divCol{
+    margin-left: 20px;
+    width: 420px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 13px;
+    background-color: rgb(207, 206, 206);
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+}
+
+button{
+   
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+}
+
+.one-row .divCol1{
+    margin-left: 20px;
+    width: 420px;
+    border-radius: 30px;
+    padding: 0px;
+    outline: none;
+    background: #cababa;
+}
+
+::-webkit-file-upload-button{
+    color: rgb(255, 255, 255);
+    background-color: #16b396;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+}
