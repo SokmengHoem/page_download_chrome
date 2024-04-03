@@ -241,17 +241,21 @@ input{
 button{
    
     padding: 10px 20px;
-    background-color: blue;
+    background-color: rgba(56, 56, 243, 0.944);
     color: white;
     border: none;
     border-radius: 15px;
     margin-top: 20px;
-    
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: blue;
 }
 
 .one-row .divCol1{
     margin-left: 20px;
-    width: 420px;
+    width: 415px;
     border-radius: 30px;
     padding: 0px;
     outline: none;
